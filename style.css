@@ -110,6 +110,7 @@ h3{
 .why p{
   width: 80%;
   margin-left: 10%;
+  font-size: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 54px;
   text-align: justify;
@@ -451,7 +452,6 @@ nav a{
   border-radius: 30px;
   width: 390px;
   top: 600px;
-  z-index: -2;
   transform: rotate(15deg);
 }
 .cart p{
