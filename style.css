@@ -412,6 +412,18 @@ nav a{
     transform: translateY(0);
   }
 }
+.bandeau{
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(212, 89, 0);
+  padding: 12px;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+.bandeau a{
+  font-size: 30px;
+  text-decoration: underline;
+}
 .logo{
   width: 300px;
   height: auto;
@@ -421,7 +433,7 @@ nav a{
   width: 18px;
   height: 18px;
   position: absolute;
-  top: 78px;
+  top: 162px;
   left: 342px;
   background-color: rgba(255, 0, 157,0.3);
   -webkit-box-shadow: 5px 5px 48px 9px #ff009d; 
@@ -471,12 +483,15 @@ footer h3{
 }
 
 @media screen and (min-width: 1000px){
+  .bandeau, .bandeau a{
+    font-size: 18px;
+  }
   .logo{
     width: 180px;
     height: auto;
   }
   .pinkshadow{
-    top: 69px;
+    top: 111px;
     left: 41%;
   }
   h1{
