@@ -415,7 +415,7 @@ nav a{
 .bandeau{
   font-size: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: rgb(212, 89, 0);
+  background-color: #d45900;
   padding: 12px;
   padding-left: 21%;
   padding-right: 21%;
@@ -473,10 +473,11 @@ nav a{
 footer{
   background-color: #ff009d;
   text-decoration: underline;
-  height: 150px;
+  height: auto;
   padding-top: 12px;
   margin-bottom: 0;
   margin-top: 120px;
+  padding-bottom: 42px;
 }
 footer h3{
   font-size: 36px;
@@ -576,8 +577,8 @@ footer h3{
     }
   }
   footer{
-    height: 81px;
     padding-top: 3px;
+    padding-bottom: 30px;
   }
   footer h3{
     font-size: 24px;
