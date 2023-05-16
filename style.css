@@ -480,7 +480,7 @@ footer{
   padding-bottom: 42px;
 }
 footer h3{
-  font-size: 36px;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 1000px){
@@ -578,10 +578,10 @@ footer h3{
   }
   footer{
     padding-top: 3px;
-    padding-bottom: 30px;
+    padding-bottom: 18px;
   }
   footer h3{
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1200px){
