@@ -454,14 +454,19 @@ nav a{
   font-size: 54px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.strawpoll{
-  width: 100%;
-  height: 720px;
+
+iframe{
+  display: inline-block;
+  width: 50%;
+  height: 1200px;
   transform: scale(1.5);
+  margin-bottom: 600px;
 }
 .space{
+  display: inline-block;
   background-color: #1f2937;
-  height: 420px;
+  height: 600px;
+  width: 600px;
 }
 footer{
   background-color: #ff009d;
@@ -511,10 +516,25 @@ footer h3{
     width: 70%;
     margin-left: 15%;
     font-size: 42px;
+    margin-top: 30px;
+    margin-bottom: 90px;
   }
   .why{
     display: inline-block;
-    overflow-x: scroll;
+  }
+  .strawpoll{
+    display: inline-block;
+    width: 420px;
+  }
+  iframe{
+    display: inline-block;
+    transform: initial;
+    margin-bottom: -360px;
+  }
+  .space{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
   }
   .why p{
    width: 70%;
@@ -570,12 +590,7 @@ footer h3{
     }
   }
   .strawpoll{
-    width: 600px;
-    display: inline-block;
-    transform: initial;
-  }
-  .space{
-    display: none;
+    
   }
   footer{
     font-size: 15px;
