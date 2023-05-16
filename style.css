@@ -114,6 +114,11 @@ h3{
   line-height: 54px;
   text-align: justify;
 }
+.why img{
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+}
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 :root {
@@ -530,6 +535,9 @@ footer h3{
   }
   .why a{
     font-size: 24px;
+  }
+  .why img{
+    width: 600px;
   }
   h4{
     font-size: 14px;
