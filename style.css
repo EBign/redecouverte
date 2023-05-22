@@ -459,6 +459,7 @@ nav a{
 }
 .baniere{
   position: relative;
+  margin-bottom: 120px;
 }
 .baniere a{
   color: black;
@@ -475,6 +476,12 @@ nav a{
   font-size: 54px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.rappel{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 60px;
+}
 footer{
   background-color: #ff009d;
   text-decoration: underline;
@@ -485,7 +492,7 @@ footer{
   padding-bottom: 42px;
 }
 footer h3{
-  font-size: 30px;
+  font-size: 24px;
 }
 
 @media screen and (min-width: 1000px){
