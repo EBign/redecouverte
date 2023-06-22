@@ -408,6 +408,7 @@ nav a{
 }
 header a{
   color: #009fd9;
+  text-underline-offset: 6px;
 }
 @keyframes haut{
   0%{
