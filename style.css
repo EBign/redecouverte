@@ -406,6 +406,9 @@ a:hover{
 nav a{
   color: floralwhite;
 }
+header a{
+  color: #009fd9;
+}
 @keyframes haut{
   0%{
     transform: translateY(0);
